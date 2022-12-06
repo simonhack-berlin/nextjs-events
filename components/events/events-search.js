@@ -19,14 +19,14 @@ function EventsSearch(props) {
         <form onSubmit={submitHandler} className={classes.form}>
             <div className={classes.controls}>
                 <div className={classes.control}>
-                    <label for="year">Year</label>
+                    <label htmlFor="year">Year</label>
                     <select id="year" name="year" ref={yearInputRef}>
                         <option value="2021">2021</option>
                         <option value="2022">2022</option>
                     </select>
                 </div>
                 <div className={classes.control}>
-                    <label for="month">Month</label>
+                    <label htmlFor="month">Month</label>
                     <select id="month" name="month" ref={monthInputRef}>
                         <option value="1">January</option>
                         <option value="2">February</option>
